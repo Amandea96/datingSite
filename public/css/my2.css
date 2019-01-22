@@ -1,0 +1,29 @@
+.myname{text-transform: uppercase;}
+.myback{
+	background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+	background-position: top left, top right, bottom left, bottom right;
+	background-repeat: no-repeat;
+	background-size: 25em;}
+	
+	
+	.logo {
+		
+		color: inherit;
+		font-weight: 500;
+		line-height: 1.75em;
+		
+		text-transform: uppercase;
+	}
+	
+	
+		
+		 a span {
+				font-weight: 10;
+				opacity:0.5;
+			}
+	
+	
+	main
+	{display:block}
+	
+	
