@@ -87,3 +87,5 @@ Jest to ostatnia z funkcji menu rozwijanego.
 #### STRONICOWANIE
 Lista użytkowników jest stronicowana. Ta funkcja dostępna jest także podczas wyszukiwania.
 
+#### NAZEWNICTWO PODSTRON
+Każda podstrona ma indywidualną nazwę wyświetlaną na karcie przeglądarki.
