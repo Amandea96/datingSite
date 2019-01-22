@@ -40,7 +40,7 @@
 4. W wierszu poleceń wpisz : cd [ścieżka gdzie chcesz zaistalować composera], następnie wpisz komendę composer init composer init stworzy plik composer.json niezbędny do utworzenia projektu.
 5.Zainstaluj composera : composer install [np: C:\xampp\htdocs\composer] (musisz być w folderze, w którym chcesz go zainstalować)
 6. Wklej cały projekt do C:\xampp\htdocs\composer
-7. Włącz xampp (naciśnij koło Apache : config)
+7. Włącz xampp (naciśnij obok Apache : config)
 8. Zmień w pliku httpd.conf : DocumentRoot "C:/xampp/htdocs/composer" oraz <Directory "C:/xampp/htdocs/composer">.
 9. Włącz Apache i MySQL.
 10. Włącz przeglądarkę i wpisz : http://localhost/datingSite-master
@@ -68,7 +68,7 @@ W chwili uruchomienia funkcji przeznaczonej tylko dla zalogowanych użytkownikó
 #### MÓJ PROFIL
 Po zalogowaniu widoczna jest nowa zakładka. Wyświetla ona naszą nazwę użytkownika. Po ustawieniu na niej kursora lub przyciśnięciu wyświetli ona nowe dostępne funkcje.
 Pierwszą z nich jest szybkie uruchomienie naszego profilu - poprzez wybranie pierwszej opcji Profil.
-Oprócz wyświetlenia naszego konta, możemy dodać wpisy, które będą widoczne dla wszystkich użytkowników.
+Po wyświetleniu naszego konta możemy dodać wpisy, które będą widoczne dla wszystkich użytkowników.
 
 #### EDYTUJ PROFIL
 Po utworzeniu konta możliwa jest zmiana informacji o sobie. Jest to kolejna funkcja znajdująca się w menu rozwijanym.
@@ -77,7 +77,7 @@ Po utworzeniu konta możliwa jest zmiana informacji o sobie. Jest to kolejna fun
 Po dodaniu użytkowników do znajomych możemy ich znaleźć w zakładce Znajomi w menu rozwijanym.  Po wyświetleniu listy możliwe jest wyszukanie użytkowników o podanych cechach.
 Po wybraniu użytkownika z listy wyświetli się Chat, dzięki któremu możliwa jest rozmowa z danych użytkownikiem.
 
-#### Znajomi
+#### ZNAJOMI
 Jak wcześniej wspomniano możliwe jest także wyświetlenie znajomych innych użytkowników wraz z wyszukiwaniem.
 
 #### WYLOGUJ
