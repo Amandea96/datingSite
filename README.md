@@ -43,6 +43,7 @@
 7. Włącz xampp (naciśnij obok Apache : config)
 8. Zmień w pliku httpd.conf : DocumentRoot "C:/xampp/htdocs/composer" oraz <Directory "C:/xampp/htdocs/composer">.
 9. Włącz Apache i MySQL.
+10. Włącz przeglądarkę i wpisz : http://localhost/phpmyadmin/ , a następnie Import i wybierz plik - pbawdating.sql znajdujący się w pobranym repozytorium i wykonaj.
 10. Włącz przeglądarkę i wpisz : http://localhost/datingSite-master
 
 
@@ -85,3 +86,4 @@ Jest to ostatnia z funkcji menu rozwijanego.
 
 #### STRONICOWANIE
 Lista użytkowników jest stronicowana. Ta funkcja dostępna jest także podczas wyszukiwania.
+
