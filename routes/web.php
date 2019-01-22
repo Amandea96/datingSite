@@ -46,7 +46,7 @@ Route::post('/addPost/{id}',[
 
 Route::view('/homePage', 'welcome');
 
-Route::post('/search', [
+Route::get('/search', [
 'uses' => 'listPersonCtrl@search',
         'as'   => 'search']);
 		

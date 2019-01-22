@@ -111,7 +111,7 @@
 							
 							@endforeach
 										
-									{{$userShow->links()}}
+									{{ $userShow->appends(Request::except('page'))->links() }}
 										
 										
 										
@@ -126,7 +126,7 @@
 
 
 
-<form method="POST" class="pure-form pure-form-stacked" action="{{ route('search')}}">
+<form method="GET" class="pure-form pure-form-stacked" action="{{ route('search')}}">
  {{ csrf_field() }}
 	<legend>WYSZUKIWANIE</legend>
 	<fieldset>

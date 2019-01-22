@@ -111,7 +111,7 @@ return $query->where('city', 'LIKE', '%' . $searchPerson['city'] . '%');
 ->when(!empty($searchPerson['nation']) , function ($query) use($searchPerson){
 return $query->where('nation', 'LIKE', '%' . $searchPerson['nation'] . '%');
 })
-->get()   ;
+->paginate(3)   ;
 		
 		/*$userShow=DB::table('users')
             ->where(function ($query) use($name,$gender) {
