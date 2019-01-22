@@ -44,7 +44,7 @@
 8. Zmień w pliku httpd.conf : DocumentRoot "C:/xampp/htdocs/composer" oraz <Directory "C:/xampp/htdocs/composer">.
 9. Włącz Apache i MySQL.
 10. Włącz przeglądarkę i wpisz : http://localhost/phpmyadmin/ , a następnie Import i wybierz plik - pbawdating.sql znajdujący się w pobranym repozytorium i wykonaj.
-10. Włącz przeglądarkę i wpisz : http://localhost/datingSite-master
+10. Włącz przeglądarkę i wpisz : http://localhost/datingSite-master/public
 
 
 
